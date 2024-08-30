@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+ }
+ table{
+  overflow-x: scroll;
+ }
+ .w-max{
+  width: max-content;
+ }
+.site-background {
+  color: white;
+  background-image: url('./assets/images/bg.png');
+   width: 100%;
+   min-height: 100vh;
+  max-height: max-content;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+ }
+p{
+  margin: 0;
+  padding: 0;
+}
+.text-nowrap{
+  text-wrap: nowrap;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.cursor-pointer{
+  cursor: pointer !important;
+}
+button{
+  background: inherit;
+  border: none;
+}
+.bg-dark{
+  background: #1B1B1B !important;
+}
+.bg-gradient{
+  color: white;
+  background: linear-gradient(0deg, #0b5045, #318174) !important;
+    box-shadow: rgba(40, 40, 40, 0.4) 0 2px 4px, rgba(40, 40, 40, 0.4) 0 7px 13px -3px, #133933 0 -3px 0 inset;
+}
+.customForm{
+  width: 35%;
+  margin: auto;
+  background: #224137;
+     border: 1px solid #323542;
+}
+.gradient-text {
+  background: linear-gradient(to right, #30756E, #FEC52D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.w-full{
+  width: 100%;
+}
+.contactCard,.promotionCard{
+  background: #224137;
+}
+ 
+.promotionCard img{
+  height: 180px;
+  width: 100%;
+}
+.contactImg{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.bg-none{
+  background: none;
+}
+input{
+  border: inherit;
+  outline: none;
+}
+.profileImg{
+  width: 100px;
+  height: 100px;
+}
+.flag{
+  width: 30px;
+  height: 30px;
+}
+@media screen and (max-width:1000px) {
+  .customForm{
+    width: 40%;
+  }
+}
+@media screen and (max-width:900px) {
+  .customForm{
+    width: 50%;
+  }
+}
+@media screen and (max-width:750px) {
+  .customForm{
+    width: 60%;
+  }
+}
+@media screen and (max-width:580px) {
+  .customForm{
+    width: 70%;
+  }
+  .profileImg{
+    width: 80px;
+    height: 80px;
+  }
+}
+@media screen and (max-width:480px) {
+  .customForm{
+    width: 80%;
+  }
+}
+@media screen and (max-width:400px) {
+  .customForm{
+    width: 90%;
+  }
+  .promotionCard img{
+    height: 140px;
+   }
+}

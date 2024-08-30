@@ -1,0 +1,143 @@
+.gameTabImg{
+    height: 50px;
+}
+.gameText{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.bgActive{
+    background: linear-gradient(0deg, #fa0, #ffea00);
+    color: black;
+}
+.gameHeading{
+    color: #FFD600;
+    font-weight: 700;
+}
+.gameHeadingLine{
+    background: linear-gradient(0deg, #fa0, #ffea00);
+height: 2px;
+border-radius: 5px;
+width: 100%;
+}
+.gameProviderImg{
+    height: 45px;
+    width: auto;
+}
+.gameCard{
+    background: linear-gradient(90deg, #333, #000);
+    border-radius: 10px !important;
+    border: 1px solid #323542;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gameTab{
+    width: 100%;
+}
+.gameTab1{
+    width: 70%;
+    margin: auto;
+ }
+.gameTab2{
+    width: 100%;
+}
+.providerGame{
+    width: 80px;
+    height: 80px;
+}
+.providerImg{
+    max-height: 65px;
+    max-width: 100px;
+ }
+@media screen and (max-width:992px) {
+    .gameTab1{
+        width: 10%;
+    }
+    .gameTab2{
+        width: 90%;
+    }
+    .gameTabImg{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width:740px) {
+    .gameTab1{
+        width: 12%;
+    }
+    .gameTab2{
+        width: 88%;
+    }
+    
+}
+@media screen and (max-width:630px) {
+    .gameTab1{
+        width: 14%;
+    }
+    .gameTab2{
+        width: 86%;
+    }
+    
+}
+@media screen and (max-width:530px) {
+    .gameTab1{
+        width: 16%;
+    }
+    .gameTab2{
+        width: 84%;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .gameTab1{
+        width: 18%;
+    }
+    .gameTab2{
+        width: 82%;
+    }
+    
+}
+@media screen and (max-width:420px) {
+    .gameTab1{
+        width: 20%;
+    }
+    .gameTab2{
+        width: 80%;
+    }
+    .providerImg{
+        height: 50px;
+        width: auto;
+    }
+ }
+ @media screen and (max-width:400px) {
+    .gameProviderImg{
+        height: 35px;
+        width: auto;
+    }
+ }
+ @media screen and (max-width:390px) {
+    .gameTab1{
+        width: 22%;
+    }
+    .gameTab2{
+        width: 78%;
+    }
+ }
+ @media screen and (max-width:350px) {
+    .gameTab1{
+        width: 24%;
+    }
+    .gameTab2{
+        width: 76%;
+    }
+ }
+ @media screen and (max-width:330px) {
+    .gameTab1{
+        width: 26%;
+    }
+    .gameTab2{
+        width: 74%;
+    }
+ }

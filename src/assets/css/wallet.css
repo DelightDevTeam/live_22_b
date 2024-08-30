@@ -1,0 +1,63 @@
+.walletUserImg{
+    width: 60px;
+    height: 60px;
+}
+.walletBg{
+    background: hsla(175, 44%, 30%, 1);
+
+    background: linear-gradient(45deg, hsla(175, 44%, 30%, 1) 0%, hsla(47, 98%, 59%, 1) 100%);
+    
+    background: -moz-linear-gradient(45deg, hsla(175, 44%, 30%, 1) 0%, hsla(47, 98%, 59%, 1) 100%);
+    
+    background: -webkit-linear-gradient(45deg, hsla(175, 44%, 30%, 1) 0%, hsla(47, 98%, 59%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2B6E68", endColorstr="#FDD12E", GradientType=1 );
+}
+.walletCard{
+    width: 40%;
+    margin: auto;
+}
+@media screen and (max-width:900px) {
+    .walletCard{
+        width: 60%;
+    }
+}
+@media screen and (max-width:650px) {
+    .walletCard{
+        width: 80%;
+    }
+}
+@media screen and (max-width:450px) {
+    .walletCard{
+        width: 90%;
+    }
+}
+@media screen and (max-width:420px) {
+    .bankImg{
+        width: 80px;
+        height: 80px;
+    }
+}
+@media screen and (max-width:380px) {
+    .bankImg{
+        width: 70px;
+        height: 70px;
+    }
+}
+@media screen and (max-width:350px) {
+    .walletCard{
+        width: 100%;
+    }
+}
+@media screen and (max-width:330px) {
+    .bankImg{
+        width: 65px;
+        height: 65px;
+    }
+}
+@media screen and (max-width:310px) {
+    .bankImg{
+        width: 60px;
+        height: 60px;
+    }
+}

@@ -1,0 +1,130 @@
+.logo{
+    height: 80px;
+}
+.bannerImg{
+    height: 250px;
+    object-fit: cover;
+}
+.navUserInfo{
+    font-size: 16px;
+}
+.navUserIcon{
+    font-size: 20px !important;
+}
+.fixed-bottom2{
+    z-index: 10;
+    position: fixed;
+    right: 0 ;
+   left: 95%;
+    top: 35%;
+    font-size: 13px;
+      height: max-content;
+     display: flex;
+    flex-direction: column;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+     
+ }
+ .providerImg{
+    height: 60px;
+    width: auto;
+ }
+ .fixed-bottom{
+    z-index: 10;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .tableActive{
+    border-bottom: 3px solid #f6e500;
+     text-shadow: 0px 0px 12px #fae584, 0px 0px 12px #fae584, 0px 0px 12px #fae584, 0px 0px 12px #fae584;
+ }
+ table,tr ,th,td{
+    border: none !important;
+ }
+  td{
+    background: #fff !important;
+    font-weight: 600 !important;
+ }
+ table tr th{
+    background: #509D57 !important;
+    color: white !important;
+ }
+ @media screen and (max-width:1030px) {
+    .fixed-bottom2{
+        left: 93%;
+     }
+ }
+ @media screen and (max-width:900px) {
+    .fixed-bottom2{
+        top: 30%;
+        left: 90%;
+     }
+ }
+@media screen and (max-width:760px) {
+    .bannerImg{
+        height: 200px;
+    }
+}
+@media screen and (max-width:680px) {
+    .fixed-bottom2{
+         left: 88%;
+     }
+ }
+@media screen and (max-width:580px) {
+    .bannerImg{
+        height: 180px;
+    }
+    .fixed-bottom2{
+        display: none;
+    }
+    
+}
+@media screen and (min-width:580px) {
+    .fixed-bottom{
+        display: none;
+    }
+}
+@media screen and (max-width:500px) {
+    .footerText{
+        font-size: 13px;
+    }
+}
+ @media screen and (max-width:480px) {
+    .tableText{
+        font-size: 15px;
+    }
+ }
+@media screen and (max-width:450px) {
+    .bannerImg{
+        height: 150px;
+    }
+}
+@media screen and (max-width:400px) {
+    .navUserInfo{
+        font-size: 14px;
+    }
+    .logo{
+        height: 60px;
+    }
+    .navUserIcon{
+        font-size: 16px !important;
+    }
+}
+@media screen and (max-width:380px) {
+    .duration{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:340px) {
+    .duration{
+        font-size: 14px;
+    }
+}
