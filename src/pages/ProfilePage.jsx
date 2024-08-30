@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 const ProfilePage = () => {
   return (
-    <div className='customForm mt-3 mb-5 border-0 p-2 p-sm-4 rounded-4'>
+    <div className='customForm mt-3 mb-5 border-0 p-3 p-sm-4 rounded-4'>
        <div className=" py-2 text-center">
       <img src={user} className='profileImg' />
       </div>
@@ -23,7 +23,7 @@ const ProfilePage = () => {
                 <h5 className="fw-semibold">Save</h5>
             </button>
             <Link to={'/change-password'}>
-            <Button variant="outline-danger" className='mt-3 mb-5 rounded-5 py-2 px-5 w-full text-center'><h5 className="fw-semibold py-1 mb-0">Change Password</h5></Button>
+            <Button variant="outline-danger" className='mt-3 mb-5 rounded-5 py-2 px-5 w-full text-center'><h5 style={{textWrap:'nowrap'}} className="fw-semibold py-1 mb-0">Change Password</h5></Button>
             </Link>
       </div>
     </div>

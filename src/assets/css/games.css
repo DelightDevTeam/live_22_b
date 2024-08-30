@@ -1,10 +1,20 @@
+.gameImg{
+    border: 4px solid #033D58;
+}
+.gameName{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
 .gameTabImg{
     height: 50px;
+    border-radius: 25px;
 }
 .gameText{
     font-size: 14px;
     font-weight: 600;
     text-align: center;
+    text-wrap: nowrap;
 }
 .bgActive{
     background: linear-gradient(0deg, #fa0, #ffea00);
@@ -34,7 +44,7 @@ width: 100%;
     justify-content: center;
 }
 .gameTab{
-    width: 100%;
+    /* width: 100%; */
 }
 .gameTab1{
     width: 70%;
@@ -58,10 +68,7 @@ width: 100%;
     .gameTab2{
         width: 90%;
     }
-    .gameTabImg{
-        width: 30px;
-        height: 30px;
-    }
+     
 }
 @media screen and (max-width:740px) {
     .gameTab1{
@@ -89,6 +96,11 @@ width: 100%;
         width: 84%;
     }
     
+}
+@media screen and (max-width:500px) {
+    .gameName{
+        font-size: 14px;
+    }
 }
 @media screen and (max-width:480px) {
     .gameTab1{
