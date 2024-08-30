@@ -40,7 +40,7 @@ const Navbar = () => {
       </div>
   </Link>
   <Dropdown>
-      <Dropdown.Toggle style={{background:'#224137'}} className='text-white' variant="none" id="dropdown-basic">
+      <Dropdown.Toggle style={{background:'#054461'}} className='text-white' variant="none" id="dropdown-basic">
         <img src={selectedLang.img} className='flag' />
       </Dropdown.Toggle>
 

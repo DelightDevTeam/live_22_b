@@ -15,7 +15,9 @@ body{
  }
 .site-background {
   color: white;
-  background-image: url('./assets/images/bg.png');
+  /* background-image: url('./assets/images/bg.png'); */
+  background: rgb(1,27,39);
+  background: linear-gradient(162deg, rgba(1,27,39,1) 1%, rgba(8,102,123,1) 54%);
    width: 100%;
    min-height: 100vh;
   max-height: max-content;
@@ -47,13 +49,17 @@ button{
 }
 .bg-gradient{
   color: white;
-  background: linear-gradient(0deg, #0b5045, #318174) !important;
+  /* background: linear-gradient(0deg, #0b5045, #318174) !important; */
+  background: rgb(3,57,82) !important ;
+  background: linear-gradient(162deg, rgba(3,57,82,1) 1%, rgba(9,99,141,1) 64%) !important;
     box-shadow: rgba(40, 40, 40, 0.4) 0 2px 4px, rgba(40, 40, 40, 0.4) 0 7px 13px -3px, #133933 0 -3px 0 inset;
 }
 .customForm{
   width: 35%;
   margin: auto;
-  background: #224137;
+  background: rgb(3,57,82) !important ;
+  background: linear-gradient(162deg, rgba(3,57,82,1) 1%, rgba(9,99,141,1) 64%) !important;
+    box-shadow: rgba(40, 40, 40, 0.4) 0 2px 4px, rgba(40, 40, 40, 0.4) 0 7px 13px -3px, #133933 0 -3px 0 inset;
      border: 1px solid #323542;
 }
 .gradient-text {
@@ -67,7 +73,7 @@ button{
   width: 100%;
 }
 .contactCard,.promotionCard{
-  background: #224137;
+  background: #055B6E;
 }
  
 .promotionCard img{

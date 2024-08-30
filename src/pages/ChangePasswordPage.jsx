@@ -1,7 +1,7 @@
 import React from 'react'
  const ChangePasswordPage = () => {
   return (
-    <div className='customForm mt-4 mb-5 border-0 p-2 p-sm-4 rounded-4'>
+    <div className='customForm mt-4 mb-5 border-0 p-3 p-sm-4 rounded-4'>
        
       <h3 className="gradient-text my-4 fw-bold text-center">Change Password</h3>
 

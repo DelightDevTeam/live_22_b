@@ -54,7 +54,7 @@
     font-weight: 600 !important;
  }
  table tr th{
-    background: #509D57 !important;
+    background: #033f5c !important;
     color: white !important;
  }
  @media screen and (max-width:1030px) {
@@ -95,6 +95,9 @@
 @media screen and (max-width:500px) {
     .footerText{
         font-size: 13px;
+    }
+    .logo{
+        height: 60px;
     }
 }
  @media screen and (max-width:480px) {
