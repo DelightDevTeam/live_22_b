@@ -10,6 +10,7 @@ import GameLogsPage from '../pages/GameLogsPage';
  import WalletPage from '../pages/WalletPage';
 import DepositPage from '../pages/DepositPage';
 import WithDrawPage from '../pages/WithDrawPage';
+import GamesPage from '../pages/GamesPage';
 const routers= createBrowserRouter([
     {
         path:'/',
@@ -18,6 +19,10 @@ const routers= createBrowserRouter([
             {
                 index:true,
                 element:<HomePage/>
+            },
+            {
+               path:'/games',
+                element:<GamesPage/>
             },
             {
                path:'/login',

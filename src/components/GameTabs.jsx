@@ -100,11 +100,15 @@ const SlotTab=()=>{
      {img:g29,name:'Sanctum of Savanah'}, {img:g30,name:'Bloodmoon'},
     {img:g31,name:'Santa Payday'}, {img:g32,name:'Advent of Dragon'}, {img:g33,name:'Kingdom of Luck'}, {img:g34,name:'God Gambit'}, {img:g35,name:'Goal Rush'}, {img:g36,name:'Shipwrecked'}, {img:g37,name:'God Gambit'}, {img:g38,name:'Quantum of Giza'}
   ]
+  const navigate=useNavigate();
+  const onGameClick=()=>{
+    navigate('/games')
+  }
     return <>
           {/* <h4 className="text-white fw-bold my-2">SLOT GAMES</h4> */}
         <div className="row mt-4">
          {games?.map((game,index)=>{
-            return <div key={index} className='col-4 col-md-3 col-lg-2 px-1 px-md-3   mb-sm-4 cursor-pointer' >
+            return <div onClick={onGameClick} key={index} className='col-4 col-md-3 col-lg-2 px-1 px-md-3   mb-sm-4 cursor-pointer' >
                 <div className=" p-1 rounded-3">
                 <img src={game.img} className='img-fluid gameImg rounded-3' />
                 <p className='gameName'>{game.name}</p>
